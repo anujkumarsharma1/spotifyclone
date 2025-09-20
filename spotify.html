@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="icon" href="./asset/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+     <main class="main">
+        
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-options">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                 <div class="nav-options">
+                   <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+                
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-options">
+                        <img src="./asset/library_icon.png" alt="libicon">
+                        <a href="#"> library</a>
+
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist </p>
+                        <p class="box-p2">It's Easy, We will help you </p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist </p>
+                        <p class="box-p2">It's Easy, We will help you </p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./asset/backward_icon.png" alt="back">
+                    <img src="./asset/forward_icon.png" alt="forward" class="hide">
+
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-items hide">Explore Primium</button>
+                    <button class="badge nav-items dark-badge"><i class="fa-solid fa-download"></i>install</button>
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently Visited</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./asset/card1img.jpeg" alt="">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played songs</p>
+                    </div>
+                </div>
+                <h2>You may like  <i class="fa-solid fa-face-grin-hearts"></i> </h2>
+                 <div class="card-container">
+                    <div class="card">
+                        <img src="./asset/card2img.jpeg" alt="">
+                        <p class="card-title">English Songs</p>
+                        <p class="card-info">Adele, Ed Sheeran, Elton , Harry Styles...
+</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asset/card3img.jpeg" alt="">
+                        <p class="card-title">Top Lofi</p>
+                        <p class="card-info">VIBIE, Gravero,  Silent Ocean, Lofiwaala ...
+</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asset/card4img.jpeg" alt="">
+                        <p class="card-title">South-hits</p>
+                        <p class="card-info">Kaavaalaa, Kurchi Madathapetti.....
+</p>
+                    </div>
+                </div>
+                <h2>top hits</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./asset/card5img.jpeg" alt="">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Die With A Smile, APT, Evil J0rdan...
+</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asset/card6img.jpeg" alt="">
+                        <p class="card-title">Top 50 -India</p>
+                        <p class="card-info">Saiyarra, Zamaana Lage, Laal Pari...
+</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asset/card2img.jpeg" alt="">
+                        <p class="card-title">Top 10 horror</p>
+                        <p class="card-info">Come to Daddy Dead Skin Mask, Steven...</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+        </div>
+      
+
+
+
+        <div class="music-player">
+            <div class="album">
+                <img src="https://images.unsplash.com/photo-1598387846148-47e82ee120cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNvbmdzfGVufDB8fDB8fHww" alt="" class="album-art">
+               <div class="album-song-current">
+    <a href="#" class="album-song-name"> Daylight</a>
+    <p class="album-song-artist"> David Kushner</p>
+    </div>
+    <div class="album-song-icons">
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-bookmark"></i>
+    </div>
+</div>
+
+            
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./asset/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="./asset/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="./asset/player_icon3.png" alt="" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./asset/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="./asset/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">0:00</span>
+                    <label for="123">0:48</label>
+                   
+                    <input type="range" min="0" max="100" step="1" class="progress-bar" id="123">
+                     <span class="duration">2:02</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-microphone-lines"></i>
+                <span class="material-symbols-outlined">queue_music</span>
+                <span class="material-symbols-outlined">connected_tv</span>
+                <div class="volume-control">
+                    <span class="material-symbols-outlined ">volume_down</span>
+                <label for="1234">0</label>
+                <input type="range" min="0" max="100" step="1" class="control-volume-bar " id="1234">
+                </div>
+       
+       <span class="material-symbols-outlined">picture_in_picture_alt</span>
+       <span class="material-symbols-outlined">home_max</span>
+
+
+            </div>
+        </div>
+    
+
+
+     </main>
+</body>
+</html>
